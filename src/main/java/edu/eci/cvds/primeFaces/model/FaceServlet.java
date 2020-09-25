@@ -1,4 +1,4 @@
-package edu.eci.cvds.primeFaces.model;
+package edu.eci.cvds.primefaces.model;
 
 import java.util.ArrayList;
 import javax.faces.bean.ManagedBean;
