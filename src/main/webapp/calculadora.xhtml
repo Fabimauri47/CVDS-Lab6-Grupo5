@@ -6,6 +6,10 @@
       xmlns:f="http://java.sun.com/jsf/core">
 
 <h:head>
+
+    body {
+        background-color: greenyellow;
+    }
 </h:head>
 <h:form id="calculadora_form">
     <h1>Bienvenido a La Calculadora Estadistica</h1>
@@ -19,7 +23,7 @@
     <span class="ui-float-label">
            <p:inputText id="numbers" binding="#{numbers}" />
     </span>
-    <br></br>
+    <br/>
     <br></br>
     <p:outputLabel
             value="Números Ingresados : #{calculadoraBean.getNumbers()}">
