@@ -52,7 +52,7 @@
                             value="Calcular Operaciones" actionListener="#{calculadoraBean.setNumbersWeb(numbers.value)}" update="calculadora_form" >
                     </p:commandButton>
                     <br></br>
-                    <h2> Historial de numeros ingresados: </h2>
+                    <h2 align="center"> Historial de numeros ingresados: </h2>
                     <p:dataTable value="#{calculadoraBean.getHistoria()}" var="item">
                         <p:column headerText="Historial" filterMatchMode="contains">
                             <p.center>
