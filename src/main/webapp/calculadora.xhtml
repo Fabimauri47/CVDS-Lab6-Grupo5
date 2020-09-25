@@ -10,19 +10,20 @@
     <body background="/Resources/imagen3.jpg" >
         <font color="#FFFFFF" face="Comic Sans MS">
             <h:form id="calculadora_form">
-                    <h1 align="center"><big> Bienvenido a La Calculadora Estadistica </big>big></h1>
-                    <p>Ingrese por favor los números que desea evaluar</p>
+                    <h1 align="center"><big> Bienvenido a La Calculadora Estadistica </big></h1>
+                    <p>Ingrese por favor los números que desea evaluar :</p>
                     <p>La forma de ingresar los números es: N1;N2;N3</p>
                     <!--p:outputLabel
                     value="Valor de la moda: #{calculadoraBean.getModa()}">
                     </p:outputLabel-->
                     <br></br>
-                    <p> Ingrese la Lista númerica ha evaluar:</p>
+                    <h2> Ingrese la Lista númerica ha evaluar:</h2>
                     <span class="ui-float-label">
                            <p:inputText id="numbers" binding="#{numbers}" />
                     </span>
                     <br/>
                     <br></br>
+                    <h2> Resultados: </h2>
                     <p:outputLabel
                             value="Números Ingresados : #{calculadoraBean.getNumbers()}">
                     </p:outputLabel>
