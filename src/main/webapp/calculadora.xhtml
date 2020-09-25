@@ -8,21 +8,21 @@
 <h:head>
 </h:head>
 <h:form id="calculadora_form">
-    <h1>Calculadora Estadistica</h1>
-    <p>Ingrese los números que desea evaluar</p>
-    <p>La forma de ingresar los números es :N1;N2;N3</p>
+    <h1>Bienvenido a La Calculadora Estadistica</h1>
+    <p>Ingrese por favor los números que desea evaluar</p>
+    <p>La forma de ingresar los números es: N1;N2;N3</p>
     <!--p:outputLabel
     value="Valor de la moda: #{calculadoraBean.getModa()}">
     </p:outputLabel-->
     <br></br>
-    <p> Ingrese la lista númerica:</p>
+    <p> Ingrese la Lista númerica ha evaluar:</p>
     <span class="ui-float-label">
            <p:inputText id="numbers" binding="#{numbers}" />
     </span>
     <br></br>
     <br></br>
     <p:outputLabel
-            value="Números ingresados : #{calculadoraBean.getNumbers()}">
+            value="Números Ingresados : #{calculadoraBean.getNumbers()}">
     </p:outputLabel>
     <br></br>
     <p:outputLabel
@@ -34,20 +34,20 @@
     </p:outputLabel>
     <br></br>
     <p:outputLabel
-            value="Calculo de la varianza : #{calculadoraBean.getVarianza()}">
+            value="Calculo de la Varianza : #{calculadoraBean.getVarianza()}">
     </p:outputLabel>
     <br></br>
     <p:outputLabel
-            value="Calculo de la moda : #{calculadoraBean.getModa()}">
+            value="Calculo de la Moda : #{calculadoraBean.getModa()}">
     </p:outputLabel>
     <br></br>
     <p:outputLabel
-            value="Cantidad de números ingresados: #{calculadoraBean.getCantNumbers()}">
+            value="Cantidad Total de números ingresados: #{calculadoraBean.getCantNumbers()}">
     </p:outputLabel>
     <br></br>
     <br></br>
     <p:commandButton
-            value="Calcular operaciones" actionListener="#{calculadoraBean.setNumbersWeb(numbers.value)}" update="calculadora_form" >
+            value="Calcular Operaciones" actionListener="#{calculadoraBean.setNumbersWeb(numbers.value)}" update="calculadora_form" >
     </p:commandButton>
     <br></br>
     <h2> Historial de numeros ingresados: </h2>
@@ -60,7 +60,7 @@
     </p:dataTable>
     <br></br>
     <p:commandButton
-            value="Limpiar historial" actionListener="#{calculadoraBean.restart()}" update="calculadora_form" >
+            value="Limpiar Historial" actionListener="#{calculadoraBean.restart()}" update="calculadora_form" >
     </p:commandButton>
 </h:form>
 </html>
